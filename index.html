@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elden Ring Fan Site</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom Styles */
+    .fullscreen-bg {
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed; /* Parallax effect */
+      height: 100vh;
+    }
+  </style>
+</head>
+<body class="text-white">
+
+  <!-- Homepage Section -->
+  <section class="fullscreen-bg" style="background-image: url('assets/images/elden-ring-wallpaper.jpg');">
+    <div class="bg-black bg-opacity-70 h-full flex items-center justify-center text-center p-6">
+      <h1 class="text-5xl font-bold mb-6">Elden Ring Fan Site</h1>
+      <p class="text-gray-300 max-w-xl mb-12">Welcome, Tarnished. Explore bosses, maps, and the secrets of the Lands Between.</p>
+      <div class="flex flex-col sm:flex-row gap-6">
+        <a href="bosses.html" class="bg-yellow-600 hover:bg-yellow-500 text-black font-semibold py-3 px-6 rounded-xl shadow transition">View Bosses</a>
+        <a href="maps.html" class="bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3 px-6 rounded-xl shadow transition">Explore Maps</a>
+        <a href="lore/lore.html" class="bg-green-600 hover:bg-green-500 text-white font-semibold py-3 px-6 rounded-xl shadow transition">View Lore</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Other Sections (Optional) -->
+  <section class="bg-gray-900 py-12">
+    <div class="text-center">
+      <h2 class="text-3xl font-semibold text-yellow-400">Discover More</h2>
+      <p class="text-gray-300 mt-4">More content and info about Elden Ring's lore, bosses, and world await.</p>
+    </div>
+  </section>
+
+</body>
+</html>
